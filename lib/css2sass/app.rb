@@ -11,14 +11,19 @@ module Css2sass
     set :views, Proc.new { settings.root + '/../../' + 'views' }
     set :haml, format: :html5, escape_html: false
 
-    def highlight(source)
+    def sass(source)
       Rouge.highlight(source, 'scss', 'html')
+    end
+
+    def css(source)
+      Rouge.highlight(source, 'css', 'html')
     end
 
     helpers do
       include Rack::Utils
       alias_method :h, :escape_html
-      alias_method :hl, :highlight
+      alias_method :sass, :sass
+      alias_method :css, :css
     end
 
     get "/" do

@@ -7,8 +7,6 @@
   .code-section
     %form{method: "POST", action: "/", id: "page"}
       .code-container.left
-        %label{for: "page_css"}
-          CSS (paste your CSS code and convert!)
         .notifications
           - if flash[:notice]
             %span.notice= flash[:notice]
@@ -16,7 +14,18 @@
             %span.error= flash[:error]
         %textarea{id: "page_css", name: "page[css]"}=h(@css || "")
       .code-container.right
-        %pre.highlight{id: "page_sass", name: "page[sass]"}=hl(@output || "")
+        %pre.highlight{id: "page_sass", name: "page[sass]"}=sass(@output || "")
+        %input{id: "output", type: "hidden", name: "page[output]", value: @output || ""}
+        .buttons
+          %button.copy{id: "copy", href: "#", onclick:"copyToClipboard()"} Copy to clipboard
       .code-actions
         %input.button.sass{type: "submit", name: "commit", value: "Convert 2 SASS"}
         %input.button.scss{type: "submit", name: "commit", value: "Convert 2 SCSS"}
+
+:javascript
+  function copyToClipboard() {
+    const copyText = document.getElementById('output');
+
+    // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+  }

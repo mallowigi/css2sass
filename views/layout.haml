@@ -2,12 +2,13 @@
   %head
     %title css2sass | Convert CSS Snippets to Syntactically Awesome StyleSheets code
     - %w{ reset text 960 app }.each do |css|
-      %link{ :href => "/stylesheets/#{css}.css", :rel => "stylesheet", :type => "text/css", :media => "screen", :charset => "utf-8" }
-    %meta{ :name => 'description', :content => 'CSS2Sass | Convert CSS Snippets to Syntactically Awesome StyleSheets code'  }
-    %meta{ :name => 'keywords', :content => 'haml, ruby, html, rails, ruby on rails, Sass, SCSS'  }
-    %link{:href => "/images/favicon.ico", :rel => "shortcut icon", :type => "image/x-icon"}
-    %link{:href => "http://fonts.googleapis.com/css?family=Montserrat:400,700", :rel => "stylesheet", :type => "text/css"}
-    %link{:href => "http://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700", :rel => "stylesheet", :type => "text/css"}
+      %link{ href: "/stylesheets/#{css}.css", rel: "stylesheet", type: "text/css", media: "screen", charset: "utf-8" }
+    %meta{ name: 'description', content: 'CSS2Sass | Convert CSS Snippets to Syntactically Awesome StyleSheets code'  }
+    %meta{ name: 'keywords', content: 'haml, ruby, html, rails, ruby on rails, Sass, SCSS'  }
+    %link{href: "/images/favicon.ico", rel: "shortcut icon", type: "image/x-icon"}
+
+    %link{href: "http://fonts.googleapis.com/css?family=Montserrat:400,700", rel: "stylesheet", type: "text/css"}
+    %link{href: "http://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700", rel: "stylesheet", type: "text/css"}
     :javascript
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-5087606-8']);
@@ -27,13 +28,13 @@
             %span converter
         .top-info-section
           .version-info
-            %a{:href => "http://sass-lang.com/"} Version
+            %a{href: "http://sass-lang.com/"} Version
             = Sass.version[:string]
           .author-info
             %p 
-              %span idea & backend:
-              %a{ :href => "http://jpablobr.com"} Jose Pablo Barrantes
+              %span Idea & backend:
+              %a{ href: "http://jpablobr.com"} Jose Pablo Barrantes
               %span / 
               %span design & frontend:
-              %a{ :href => "http://hihayk.com"} Hayk
-      = yield
+              %a{ href: "http://hihayk.com"} Hayk
+      != yield

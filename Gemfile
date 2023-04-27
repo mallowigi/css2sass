@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-ruby '2.6.6'
+ruby '3.2.1'
 
 gem 'builder'
 gem 'erubis'
@@ -15,6 +15,7 @@ gem 'ruby_parser'
 gem 'sass'
 gem 'sinatra'
 gem 'sinatra-redirect-with-flash'
+gem 'rouge'
 
 group :test do
   gem 'rack-test'

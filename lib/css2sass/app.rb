@@ -1,17 +1,24 @@
 # encoding: utf-8
 require 'sinatra/base'
+require 'rouge'
 
 module Css2sass
   class App < Sinatra::Base
-    use Rack::Flash, :sweep => true
+    use Rack::Flash, sweep: true
     enable :sessions
     set :show_exceptions, true if development?
     set :public_folder, Proc.new { settings.root + '/../../' + 'public' }
     set :views, Proc.new { settings.root + '/../../' + 'views' }
+    set :haml, format: :html5, escape_html: false
+
+    def highlight(source)
+      Rouge.highlight(source, 'scss', 'html')
+    end
 
     helpers do
       include Rack::Utils
       alias_method :h, :escape_html
+      alias_method :hl, :highlight
     end
 
     get "/" do

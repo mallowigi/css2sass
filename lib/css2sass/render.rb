@@ -21,10 +21,9 @@ module Css2sass
     end
 
     def json
-      {:page =>
-        {:css => @css,
-          :sass => @output
-        }
+      { page: { css: @css,
+                sass: @output
+      }
       }.to_json
     end
 

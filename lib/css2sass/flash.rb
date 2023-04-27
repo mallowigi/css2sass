@@ -15,7 +15,7 @@ module Rack
         @opts = opts
         @store = store
 
-        if accessors = @opts[:accessorize]
+        if (accessors = @opts[:accessorize])
           accessors.each { |opt| def_accessor(opt) }
         end
       end
@@ -100,7 +100,7 @@ module Rack
     # - Rack Middleware implementation
 
     def initialize(app, opts={})
-      if klass = app_class(app, opts)
+      if (klass = app_class(app, opts))
         klass.class_eval do
           def flash; env['x-rack.flash'] end
         end

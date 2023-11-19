@@ -1,0 +1,214 @@
+repo_name: mallowigi/css2sass
+report_id: 5afd767c438ff750b8937eafbe47f4ad
+repo_type: Public
+timestamp: '2023-11-19T07:59:28+00:00'
+requested_by: mallowigi
+provider: github
+branch: master
+detected_tools_count: 16
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: HAML
+  description: HTML Abstraction Markup Language - A Markup Haiku
+  website_url: http://haml.info/
+  version: 6.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1169/Picture_2.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: jpablobr
+  last_updated_on: 2010-08-09 05:06:14.000000000 Z
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  version: 3.2.1
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile.lock
+  last_updated_by: y
+  last_updated_on: 2010-09-12 10:30:34.000000000 Z
+- name: Sinatra
+  description: Classy web-development dressed in a DSL
+  website_url: http://www.sinatrarb.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/999/logo.png
+  detection_source: Gemfile
+  last_updated_by: Elior
+  last_updated_on: 2021-06-06 13:42:26.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Puma
+  description: A Modern, Concurrent Web Server for Ruby
+  website_url: http://puma.io/
+  version: 6.2.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1055/favicon.png
+  detection_source_url: Gemfile.lock
+  detection_source: config/puma.rb
+  last_updated_by: jpablobr
+  last_updated_on: 2010-08-09 05:06:14.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source: Gemfile
+  last_updated_by: jpablobr
+  last_updated_on: 2010-08-09 05:06:14.000000000 Z
+- name: Foreman
+  website_url: http://theforeman.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3926/no-img-open-source.png
+  detection_source: Gemfile
+  last_updated_by: Elior
+  last_updated_on: 2021-06-06 13:42:26.000000000 Z
+- name: builder
+  description: Builder provides a number of builder objects that make creating structured
+    data simple to do
+  package_url: https://rubygems.org/builder
+  version: 3.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18875/default_0cd89f02ed75d3a8429cd566a89b1a4a36ad114f.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: jpablobr
+  last_updated_on: 2010-08-09 05:06:14.000000000 Z
+- name: erubis
+  description: 'Erubis is an implementation of eRuby and has the following features:
+    * Very fast, almost three times faster than ERB and about 10% faster than eruby'
+  package_url: https://rubygems.org/erubis
+  version: 2.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18951/default_310421aa2a25d1a0887d82eef53bba1245fcdb4e.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: jpablobr
+  last_updated_on: 2010-08-09 05:06:14.000000000 Z
+- name: hpricot
+  description: A swift, liberal HTML parser with a fantastic library
+  package_url: https://rubygems.org/hpricot
+  version: 0.8.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18907/default_b4a9f287f96e9c4af701e604d89d02e677f228af.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Elior
+  last_updated_on: 2021-06-06 13:42:26.000000000 Z
+- name: json
+  description: This is a JSON implementation as a Ruby extension in C
+  package_url: https://rubygems.org/json
+  version: 2.6.3
+  license: Ruby
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18822/default_19184669508c0f71aec9521d5f14d71b77203130.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Elior
+  last_updated_on: 2021-06-06 13:42:26.000000000 Z
+- name: rack-test
+  description: Rack::Test is a small, simple testing API for Rack apps
+  package_url: https://rubygems.org/rack-test
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18845/default_db5cfb0d85d9fd8bfb40a863581417a2a57791ab.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: jpablobr
+  last_updated_on: 2015-06-18 02:15:05.000000000 Z
+- name: rouge
+  description: Rouge aims to a be a simple
+  package_url: https://rubygems.org/rouge
+  version: 4.1.0
+  license: MIT,BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19110/default_06b56c3cf87200ea8cc83429c79e5c5533c80ede.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Elior
+  last_updated_on: 2023-04-27 20:13:02.000000000 Z
+- name: ruby_parser
+  description: Ruby_parser
+  package_url: https://rubygems.org/ruby_parser
+  version: 3.20.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19115/default_8396e945913ed10fae747cfd4c7b35f3d8718d78.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Elior
+  last_updated_on: 2023-04-27 20:13:02.000000000 Z
+- name: sass
+  description: Ruby Sass is deprecated! See https://sass-lang.com/ruby-sass for details
+  package_url: https://rubygems.org/sass
+  version: 3.7.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18882/default_b1cb499f3e62fe773109c989f76e3365fbe49857.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Elior
+  last_updated_on: 2021-06-06 13:42:26.000000000 Z

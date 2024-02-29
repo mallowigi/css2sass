@@ -3,10 +3,10 @@
 ## Tech Stack
 mallowigi/css2sass is built on the following main stack:
 
+- [HAML](http://haml.info/) – Languages
 - [Ruby](https://www.ruby-lang.org) – Languages
 - [Sinatra](http://www.sinatrarb.com/) – Microframeworks (Backend)
 - [Puma](http://puma.io/) – Web Servers
-- [HAML](http://haml.info/) – Languages
 
 Full tech stack [here](/techstack.md)
 
@@ -16,10 +16,10 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 mallowigi/css2sass is built on the following main stack:
 
+- <img width='25' height='25' src='https://img.stackshare.io/service/1169/Picture_2.png' alt='HAML'/> [HAML](http://haml.info/) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/999/logo.png' alt='Sinatra'/> [Sinatra](http://www.sinatrarb.com/) – Microframeworks (Backend)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1055/favicon.png' alt='Puma'/> [Puma](http://puma.io/) – Web Servers
-- <img width='25' height='25' src='https://img.stackshare.io/service/1169/Picture_2.png' alt='HAML'/> [HAML](http://haml.info/) – Languages
 
 Full tech stack [here](/techstack.md)
 
@@ -30,7 +30,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [mallowigi/css2sass](https://github.com/mallowigi/css2sass)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|17<br/>Tools used|01/05/24 <br/>Report generated|
+|17<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
